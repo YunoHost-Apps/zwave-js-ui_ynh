@@ -27,7 +27,7 @@ To work correctly, this app require **domoticz** with **mqtt broker Mosquitto** 
 
 This app may also be usable with [Home-Assistant package](https://github.com/YunoHost-Apps/homeassistant_ynh) but I never tested it.
 
-**Shipped version:** 8.4.1~ynh1
+**Shipped version:** 8.5.0~ynh1
 ## Disclaimers / important information
 
 
