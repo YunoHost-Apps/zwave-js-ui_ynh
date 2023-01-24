@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Zwave-JS-UI for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://dash.yunohost.org/appci/app/zwave-js-ui) ![Working status](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://dash.yunohost.org/appci/app/zwave-js-ui) ![Working status](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
 [![Install Zwave-JS-UI with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -27,7 +27,7 @@ You may also install both app separatly.
 
 This app may also be usable with [Home-Assistant package](https://github.com/YunoHost-Apps/homeassistant_ynh) but I never tested it.
 
-**Shipped version:** 8.6.3~ynh1
+**Shipped version:** 8.8.0~ynh1
 ## Disclaimers / important information
 
 
