@@ -29,6 +29,11 @@ To work correctly, this app require to install either
 Suivez le [guide d'installation rapide](https://zwave-js.github.io/zwave-js-ui/#/getting-started/quick-start?id=minimum-settings) pour l'intégrer dans l'une ou l'autre de ces applications.
 
 **Shipped version:** 8.8.2~ynh1
+
+## Screenshots
+
+![Screenshot of Zwave-JS-UI](./doc/screenshots/Zwavejs_Control_panel_dark.png)
+
 ## Disclaimers / important information
 
 
