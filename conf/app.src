@@ -1,5 +1,5 @@
-SOURCE_URL=https://api.github.com/repos/zwave-js/zwave-js-ui/zipball/v8.13.1
-SOURCE_SUM=0322fe49f93ffc4a725d77d3873469b9ae583e025ea6ef3cd8e7640e203b7938
+SOURCE_URL=https://api.github.com/repos/zwave-js/zwave-js-ui/zipball/v8.14.0
+SOURCE_SUM=02ed144cc7597d9f74f4fb885e72681eb2a39e5fe71efe88f0fa956d627340d0
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
