@@ -5,7 +5,7 @@ name = "Zwave-JS-UI"
 description.en = "Full featured Z-Wave Control Panel and MQTT Gateway integrated with domoticz"
 description.fr = "Panneau de controle Z-Wave et MQTT intégré avec Domoticz"
 
-version = "8.23.2~ynh1"
+version = "8.24.0~ynh1"
 
 maintainers = ["Krakinou"]
 
@@ -43,12 +43,12 @@ ram.runtime = "150M"
 
 [resources]
         [resources.sources.main]
-        arm64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v8.23.2/zwave-js-ui-v8.23.2-linux-arm64.zip"
-        arm64.sha256 = "580a1e353c2f0a4e4ce353e34ff187bb1957a60a8f0a0859d801649de54bcce8"
-        armhf.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v8.23.2/zwave-js-ui-v8.23.2-linux-armv7.zip"
-        armhf.sha256 = "e683bad48e9331b80b6afda5f673145acdebdcec8c0ec81a2c68bf5184fde3cc"
-        amd64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v8.23.2/zwave-js-ui-v8.23.2-linux.zip"
-        amd64.sha256 = "b918030ddf3b0216d450aa1939ad2400ce08306f12e9c113666e3b1b5a5c8daa"
+        arm64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v8.24.0/zwave-js-ui-v8.24.0-linux-arm64.zip"
+        arm64.sha256 = "364d9ed0494a11e117c188ade1eca2d0584141a75477fd91f9d82415e3ff2ca6"
+        armhf.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v8.24.0/zwave-js-ui-v8.24.0-linux-armv7.zip"
+        armhf.sha256 = "b4fa021a2841f0dc9280bad68299337e2b495a1d52a5b9de213ff1047202095d"
+        amd64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v8.24.0/zwave-js-ui-v8.24.0-linux.zip"
+        amd64.sha256 = "6f1fa3041014c37b83b21b4fc4d153be429638f9be58e3336f7b94b0b8049705"
         in_subdir = false
 
         autoupdate.strategy = "latest_github_release"
