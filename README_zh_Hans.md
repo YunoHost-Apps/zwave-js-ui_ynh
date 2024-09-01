@@ -16,11 +16,6 @@
 
 ## 概况
 
-
-### Features
-
-Integrate zwave-js-ui natively in Domoticz_ynh.
-
 **Zwave-JS-UI**, also known under previous name ZWaveJS2MQTT, is a replacement for Openzwave. It exposes Z-Wave devices to an MQTT broker in a fully configurable manner.
 
 To work correctly, this app require to install either
@@ -32,7 +27,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**分发版本：** 9.17.0~ynh1
+**分发版本：** 9.18.0~ynh2
 ## 文档与资源
 
 - 官方应用网站： <https://zwave-js.github.io/zwave-js-ui/#/>
