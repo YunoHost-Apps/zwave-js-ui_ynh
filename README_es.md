@@ -27,7 +27,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Versión actual:** 9.18.1~ynh1
+**Versión actual:** 9.19.0~ynh1
 ## Documentaciones y recursos
 
 - Sitio web oficial: <https://zwave-js.github.io/zwave-js-ui/#/>
@@ -39,7 +39,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/zwave-js-ui_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/zwave-js-ui_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
