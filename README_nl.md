@@ -27,7 +27,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Geleverde versie:** 9.19.0~ynh1
+**Geleverde versie:** 9.20.0~ynh1
 ## Documentatie en bronnen
 
 - Officiele website van de app: <https://zwave-js.github.io/zwave-js-ui/#/>
