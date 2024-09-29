@@ -27,7 +27,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Paketatutako bertsioa:** 9.18.1~ynh1
+**Paketatutako bertsioa:** 9.20.0~ynh1
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://zwave-js.github.io/zwave-js-ui/#/>
