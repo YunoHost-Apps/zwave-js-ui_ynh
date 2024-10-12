@@ -27,7 +27,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Versión proporcionada:** 9.20.0~ynh1
+**Versión proporcionada:** 9.22.0~ynh1
 ## Documentación e recursos
 
 - Web oficial da app: <https://zwave-js.github.io/zwave-js-ui/#/>
