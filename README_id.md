@@ -27,7 +27,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Versi terkirim:** 9.26.0~ynh1
+**Versi terkirim:** 9.27.3~ynh1
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://zwave-js.github.io/zwave-js-ui/#/>
