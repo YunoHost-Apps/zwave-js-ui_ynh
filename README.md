@@ -27,7 +27,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Shipped version:** 9.26.0~ynh1
+**Shipped version:** 9.27.4~ynh1
 ## Documentation and resources
 
 - Official app website: <https://zwave-js.github.io/zwave-js-ui/#/>
