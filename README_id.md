@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Zwave-JS-UI untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
+![Status kerja](https://apps.yunohost.org/badge/state/zwave-js-ui)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/zwave-js-ui)
 
 [![Pasang Zwave-JS-UI dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 
@@ -27,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Versi terkirim:** 9.26.0~ynh1
+**Versi terkirim:** 9.27.7~ynh1
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://zwave-js.github.io/zwave-js-ui/#/>

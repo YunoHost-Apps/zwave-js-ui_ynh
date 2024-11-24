@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Zwave-JS-UI pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/zwave-js-ui)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/zwave-js-ui)
 
 [![Installer Zwave-JS-UI avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 
@@ -26,7 +28,7 @@ Pour fonctionner correctement, cette application nécessite d'avoir installé so
 Pour l'instant, bien que le package fonctionne (installation, désinstallation, sauvegarde, restauration...), il n'est pas intégré avec domoticz et mosquitto, les paramétrages doivent être fait manuellement depuis l'application.
 
 
-**Version incluse :** 9.26.0~ynh1
+**Version incluse :** 9.27.7~ynh1
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://zwave-js.github.io/zwave-js-ui/#/>
