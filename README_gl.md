@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Zwave-JS-UI para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/zwave-js-ui)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/zwave-js-ui)
 
 [![Instalar Zwave-JS-UI con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 

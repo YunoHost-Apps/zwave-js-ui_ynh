@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Zwave-JS-UI untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
+![Status kerja](https://apps.yunohost.org/badge/state/zwave-js-ui)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/zwave-js-ui)
 
 [![Pasang Zwave-JS-UI dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 

@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Zwave-JS-UI YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/zwave-js-ui)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/zwave-js-ui)
 
 [![Instalatu Zwave-JS-UI YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 

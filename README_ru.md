@@ -5,7 +5,9 @@
 
 # Zwave-JS-UI для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
+![Состояние работы](https://apps.yunohost.org/badge/state/zwave-js-ui)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/zwave-js-ui)
 
 [![Установите Zwave-JS-UI с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 

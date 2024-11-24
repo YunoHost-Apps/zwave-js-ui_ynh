@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Zwave-JS-UI
 
-[![集成程度](https://dash.yunohost.org/integration/zwave-js-ui.svg)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/zwave-js-ui.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
+![工作状态](https://apps.yunohost.org/badge/state/zwave-js-ui)
+![维护状态](https://apps.yunohost.org/badge/maintained/zwave-js-ui)
 
 [![使用 YunoHost 安装 Zwave-JS-UI](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zwave-js-ui)
 
