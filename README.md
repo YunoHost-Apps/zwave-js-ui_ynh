@@ -29,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Shipped version:** 9.27.7~ynh1
+**Shipped version:** 9.27.8~ynh1
 ## Documentation and resources
 
 - Official app website: <https://zwave-js.github.io/zwave-js-ui/#/>
