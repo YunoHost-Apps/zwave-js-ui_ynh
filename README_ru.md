@@ -29,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Поставляемая версия:** 9.29.1~ynh1
+**Поставляемая версия:** 9.30.0~ynh1
 ## Документация и ресурсы
 
 - Официальный веб-сайт приложения: <https://zwave-js.github.io/zwave-js-ui/#/>
