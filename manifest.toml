@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "zwave-js-ui"
@@ -46,20 +48,21 @@ ram.runtime = "150M"
     default = "all_users"
 
 [resources]
-        [resources.sources.main]
-        arm64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v9.31.0/zwave-js-ui-v9.31.0-linux-arm64.zip"
-        arm64.sha256 = "7964e4e6d28e9d726c2be0234e24df60bc5bdcd5269502f39f025df0ffceae1d"
-        armhf.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v9.31.0/zwave-js-ui-v9.31.0-linux-armv7.zip"
-        armhf.sha256 = "e1521f2abd2be7abaf34cfd684f4f26ff457c51dd6f71e563c2f40d6b5753bab"
-        amd64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v9.31.0/zwave-js-ui-v9.31.0-linux.zip"
-        amd64.sha256 = "3adac7a3b781e8e3510350007607152e0059ddfab86813d5881ddea2cc58d53e"
-        in_subdir = false
 
-        autoupdate.strategy = "latest_github_release"
+    [resources.sources.main]
+    arm64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v9.31.0/zwave-js-ui-v9.31.0-linux-arm64.zip"
+    arm64.sha256 = "7964e4e6d28e9d726c2be0234e24df60bc5bdcd5269502f39f025df0ffceae1d"
+    armhf.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v9.31.0/zwave-js-ui-v9.31.0-linux-armv7.zip"
+    armhf.sha256 = "e1521f2abd2be7abaf34cfd684f4f26ff457c51dd6f71e563c2f40d6b5753bab"
+    amd64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v9.31.0/zwave-js-ui-v9.31.0-linux.zip"
+    amd64.sha256 = "3adac7a3b781e8e3510350007607152e0059ddfab86813d5881ddea2cc58d53e"
+    in_subdir = false
 
-        autoupdate.asset.arm64 = ".*-arm64.zip"
-        autoupdate.asset.amd64 = ".*-linux.zip"
-        autoupdate.asset.armhf = ".*-armv7.zip"
+    autoupdate.strategy = "latest_github_release"
+
+    autoupdate.asset.arm64 = ".*-arm64.zip"
+    autoupdate.asset.amd64 = ".*-linux.zip"
+    autoupdate.asset.armhf = ".*-armv7.zip"
 
     [resources.system_user]
 
