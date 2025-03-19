@@ -29,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Dostarczona wersja:** 9.33.1~ynh1
+**Dostarczona wersja:** 10.0.2~ynh1
 ## Dokumentacja i zasoby
 
 - Oficjalna strona aplikacji: <https://zwave-js.github.io/zwave-js-ui/#/>
