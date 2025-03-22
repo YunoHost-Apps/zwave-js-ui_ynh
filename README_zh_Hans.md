@@ -29,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**分发版本：** 10.0.2~ynh1
+**分发版本：** 10.0.3~ynh1
 ## 文档与资源
 
 - 官方应用网站： <https://zwave-js.github.io/zwave-js-ui/#/>
