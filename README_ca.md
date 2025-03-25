@@ -29,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Versió inclosa:** 10.1.1~ynh1
+**Versió inclosa:** 10.1.2~ynh1
 ## Documentació i recursos
 
 - Lloc web oficial de l'aplicació: <https://zwave-js.github.io/zwave-js-ui/#/>
