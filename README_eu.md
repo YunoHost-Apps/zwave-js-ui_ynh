@@ -29,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Paketatutako bertsioa:** 10.1.0~ynh1
+**Paketatutako bertsioa:** 10.1.1~ynh1
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://zwave-js.github.io/zwave-js-ui/#/>
@@ -43,7 +43,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/zwave-js-ui_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/zwave-js-ui_ynh/tree/testing --debug
