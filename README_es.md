@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Zwave-JS-UI para Yunohost
+# Zwave-JS-UI para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/zwave-js-ui)](https://ci-apps.yunohost.org/ci/apps/zwave-js-ui/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/zwave-js-ui)
@@ -29,7 +29,7 @@ For now, although the package is fully functional (install, remove, backup, rest
 
 
 
-**Versión actual:** 10.1.0~ynh1
+**Versión actual:** 10.1.1~ynh1
 ## Documentaciones y recursos
 
 - Sitio web oficial: <https://zwave-js.github.io/zwave-js-ui/#/>
