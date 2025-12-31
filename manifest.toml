@@ -20,7 +20,7 @@ code = "https://github.com/zwave-js/zwave-js-ui"
 fund = "https://liberapay.com/robertsLando/donate"
 
 [integration]
-yunohost = ">= 11.2.29"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = [ "amd64", "armhf", "arm64" ]
 multi_instance = false
