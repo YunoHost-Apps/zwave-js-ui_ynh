@@ -35,7 +35,19 @@ fi
 ynh_script_progression "Upgrading source files..."
 
 # Download, check integrity, uncompress and patch the source from manifest.toml
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="store"
+
+#=================================================
+# Install through npm
+#=================================================
+ynh_script_progression "Installing Z-Wave-JS-UI..."
+
+pushd "$install_dir"
+    ynh_hide_warnings ynh_exec_as_app npm ci
+    ynh_hide_warnings ynh_exec_as_app npm run build
+popd
+
+
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
@@ -45,7 +57,7 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add_nginx
 
 ynh_config_add_systemd
-yunohost service add "$app" --description="Zwave integration in domoticz" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Z-Wave integration" --log="/var/log/$app/$app.log"
 
 ynh_config_add_logrotate
 

@@ -7,7 +7,9 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/__FILE_EXEC__
+Environment="PATH=__PATH_WITH_NODEJS__"
+ExecStart=__NODEJS_DIR__/node --preserve-symlinks server/bin/www.js
+#ExecStart=__INSTALL_DIR__/__FILE_EXEC__
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 

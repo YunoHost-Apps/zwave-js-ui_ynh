@@ -33,6 +33,18 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
+# Install through npm
+#=================================================
+ynh_script_progression "Installing Zwave-JS-UI..."
+
+pushd "$install_dir"
+    ynh_hide_warnings ynh_exec_as_app npm ci
+    ynh_hide_warnings ynh_exec_as_app npm run build
+popd
+
+
+
+#=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."
@@ -41,7 +53,7 @@ ynh_config_add_nginx
 
 # Create a dedicated systemd config
 ynh_config_add_systemd
-yunohost service add "$app" --description="Zwave integration in domoticz" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Z-Wave integration" --log="/var/log/$app/$app.log"
 
 # Use logrotate to manage application logfile(s)
 ynh_config_add_logrotate
