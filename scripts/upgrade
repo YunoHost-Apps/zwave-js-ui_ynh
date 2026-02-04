@@ -44,7 +44,7 @@ ynh_script_progression "Installing Z-Wave-JS-UI..."
 
 pushd "$install_dir"
     ynh_hide_warnings ynh_exec_as_app npm ci
-    ynh_hide_warnings ynh_exec_as_app npm run build
+    ynh_hide_warnings ynh_exec_as_app NODE_OPTIONS="--max-old-space-size=1024" npm run build
 popd
 
 
