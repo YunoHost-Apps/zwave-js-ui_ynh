@@ -7,7 +7,7 @@ name = "Zwave-JS-UI"
 description.en = "Full featured Z-Wave Control Panel and MQTT Gateway integrated with domoticz"
 description.fr = "Panneau de controle Z-Wave et MQTT intégré avec Domoticz"
 
-version = "11.10.1~ynh1"
+version = "11.10.1~ynh2"
 
 maintainers = ["Krakinou"]
 
@@ -29,8 +29,8 @@ ldap = "not_relevant"
 
 sso = "not_relevant"
 
-disk = "350M"
-ram.build = "200M"
+disk = "1024M"
+ram.build = "900M"
 ram.runtime = "150M"
 
 [install]
@@ -50,19 +50,23 @@ ram.runtime = "150M"
 [resources]
 
     [resources.sources.main]
-    arm64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v11.10.1/zwave-js-ui-v11.10.1-linux-arm64.zip"
-    arm64.sha256 = "2d556104f14674b788159e07fe1e82ec30d1d37504bf904ca283dc7d50dcb3ed"
-    armhf.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v11.10.1/zwave-js-ui-v11.10.1-linux-armv7.zip"
-    armhf.sha256 = "e60b41cfcf3aa8997219b8cf47c6503774374eb8e09c8040ab1d4d383bc480b1"
-    amd64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v11.10.1/zwave-js-ui-v11.10.1-linux.zip"
-    amd64.sha256 = "cb8bf05d93baca33c763c0e6c2bfe510cc9026810d9d80b8eb6c851531733470"
-    in_subdir = false
+     url = "https://github.com/zwave-js/zwave-js-ui/archive/refs/tags/v11.10.1.zip"
+     sha256 = "c17b44ad61a5c64a095b9ece9643f7090bc546ec4cedbaf79d175036a9daefa7"
+#    arm64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v11.10.1/zwave-js-ui-v11.10.1-linux-arm64.zip"
+#    arm64.sha256 = "2d556104f14674b788159e07fe1e82ec30d1d37504bf904ca283dc7d50dcb3ed"
+#    armhf.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v11.10.1/zwave-js-ui-v11.10.1-linux-armv7.zip"
+#    armhf.sha256 = "e60b41cfcf3aa8997219b8cf47c6503774374eb8e09c8040ab1d4d383bc480b1"
+#    amd64.url = "https://github.com/zwave-js/zwave-js-ui/releases/download/v11.10.1/zwave-js-ui-v11.10.1-linux.zip"
+#    amd64.sha256 = "cb8bf05d93baca33c763c0e6c2bfe510cc9026810d9d80b8eb6c851531733470"
+    in_subdir = true
 
     autoupdate.strategy = "latest_github_release"
+    autoupdate.asset = "v.*.zip"
 
-    autoupdate.asset.arm64 = ".*-arm64.zip"
-    autoupdate.asset.amd64 = ".*-linux.zip"
-    autoupdate.asset.armhf = ".*-armv7.zip"
+#    autoupdate.asset.arm64 = ".*-arm64.zip"
+#    autoupdate.asset.amd64 = ".*-linux.zip"
+#    autoupdate.asset.armhf = ".*-armv7.zip"
+
 
     [resources.system_user]
 
@@ -73,3 +77,6 @@ ram.runtime = "150M"
 
     [resources.ports]
     main.default = 8091
+
+    [resources.nodejs]
+    version = "20"
