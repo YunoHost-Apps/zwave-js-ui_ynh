@@ -12,7 +12,7 @@ MEMORY_NEEDED="2048"
 #
 # usage: ynh_add_swap --size=SWAP in Mb
 # | arg: -s, --size= - Amount of SWAP to add in Mb.
-ynh_add_swap() {
+ynh_add_swap_custom() {
     if systemd-detect-virt --container --quiet; then
         ynh_print_warn "You are inside a container/VM. swap will not be added, but that can cause troubles for the app $app. Please make sure you have enough RAM available."
         return

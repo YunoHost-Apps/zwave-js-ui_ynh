@@ -4,8 +4,8 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source /usr/share/yunohost/helpers
 source _common.sh
+source /usr/share/yunohost/helpers
 
 #=================================================
 # CREATE DEDICATED USER
@@ -46,7 +46,7 @@ if [ $total_memory -lt $MEMORY_NEEDED ]; then
 	swap_needed=$(($MEMORY_NEEDED - $total_memory))
 	ynh_script_progression "Adding $swap_needed Mo to swap..."
 	SD_CARD_CAN_SWAP=1
-	ynh_add_swap --size=$swap_needed
+	ynh_add_swap_custom --size=$swap_needed
 
 fi
 
