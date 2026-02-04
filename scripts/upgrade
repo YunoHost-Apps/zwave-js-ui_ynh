@@ -38,6 +38,24 @@ ynh_script_progression "Upgrading source files..."
 ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="store"
 
 #=================================================
+# ADD SWAP IF NEEDED
+#=================================================
+#https://github.com/zwave-js/zwave-js-ui/issues/2699
+ynh_script_progression --message="Checking for RAM..."
+
+total_memory=$(ynh_get_ram --total)
+swap_needed=0
+
+if [ $total_memory -lt $MEMORY_NEEDED ]; then
+	# Need a minimum of 2Go of memory
+	swap_needed=$(($MEMORY_NEEDED - $total_memory))
+	ynh_script_progression --message="Adding $swap_needed Mo to swap..."
+	SD_CARD_CAN_SWAP=1
+	ynh_add_swap --size=$swap_needed
+
+fi
+
+#=================================================
 # Install through npm
 #=================================================
 ynh_script_progression "Installing Z-Wave-JS-UI..."
@@ -47,7 +65,13 @@ pushd "$install_dir"
     ynh_hide_warnings ynh_exec_as_app NODE_OPTIONS="--max-old-space-size=1024" npm run build
 popd
 
-
+#=================================================
+# REMOVE ADDITIONNAL SWAP
+#=================================================
+if [ $swap_needed > 0 ]; then
+	ynh_script_progression --message="Remove additionnal swap..." --weight=2
+	ynh_del_swap
+fi
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
