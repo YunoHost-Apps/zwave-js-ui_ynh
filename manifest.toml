@@ -7,7 +7,7 @@ name = "Zwave-JS-UI"
 description.en = "Full featured Z-Wave Control Panel and MQTT Gateway integrated with domoticz"
 description.fr = "Panneau de controle Z-Wave et MQTT intégré avec Domoticz"
 
-version = "11.10.1~ynh2"
+version = "11.11.0~ynh1"
 
 maintainers = ["Krakinou"]
 
@@ -50,8 +50,8 @@ ram.runtime = "150M"
 [resources]
 
     [resources.sources.main]
-    url = "https://github.com/zwave-js/zwave-js-ui/archive/refs/tags/v11.10.1.zip"
-    sha256 = "c17b44ad61a5c64a095b9ece9643f7090bc546ec4cedbaf79d175036a9daefa7"
+    url = "https://github.com/zwave-js/zwave-js-ui/archive/refs/tags/v11.11.0.tar.gz"
+    sha256 = "8a1452e47b0a76fa34eea669aaa7e89c3cc0169b91e0862c38ab0fca5d22d2a8"
     in_subdir = true
 
     autoupdate.strategy = "latest_github_release"
