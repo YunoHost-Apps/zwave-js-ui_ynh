@@ -30,6 +30,8 @@ ldap = "not_relevant"
 sso = "not_relevant"
 
 disk = "1024M"
+ram.build = "150M"
+ram.runtime = "150M"
 
 [install]
     [install.domain]
